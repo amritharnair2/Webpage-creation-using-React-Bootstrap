@@ -1,0 +1,55 @@
+#homepage {
+  height: calc(100vh - 56px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('https://wallpapersok.com/images/hd/red-poster-cristiano-ronaldo-hd-4k-qung8px34lq7o2f8.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#name {
+  font-weight: lighter;
+  font-size: 60px;
+}
+
+.cards {
+  padding: 30px;
+  border: none !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.aboutImage {
+  height: 500px;
+  border-radius: 5px;
+}
+
+.achieveImg {
+  font-size: 50px;
+}
+
+.galleryImage {
+  height: 500px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.footer {
+  padding: 20px;
+  color: white;
+  
+}
+
+.contactDetails {
+  background-color: #333;
+  color: white;
+  padding: 50px;
+}
+
+.heading {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
